@@ -37,6 +37,7 @@ def add_expense(expenses):
         'description': description,
         'amount': amount
     })
+    
     save_expenses(expenses)
     print("Expense added!")
 
