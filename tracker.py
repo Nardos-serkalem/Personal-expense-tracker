@@ -30,7 +30,6 @@ def add_expense(expenses):
     category = input("Enter the category (e.g., Food, Entertainment, transporation, personal care, housing,  Education and Learning): ")
     description = input("Enter the description: ")
     amount = float(input("Enter the amount: "))
-
     expenses.append({
         'date': date,
         'category': category,
