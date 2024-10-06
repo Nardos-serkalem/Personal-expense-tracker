@@ -71,6 +71,7 @@ def delete_expense(expenses):
 
 def search_expenses(expenses):
     keyword = input("Enter a keyword to search (in description or category): ").lower()
+    
     results = [expense for expense in expenses if keyword in expense['description'].lower() or keyword in expense['category'].lower()]
     
     if results:
